@@ -1,0 +1,16 @@
+// ==========================================================================
+// Margin
+// ==========================================================================
+
+.u-no-margin { margin: 0; }
+.u-sm-margin { margin: $default-size / 4; }
+.u-md-margin { margin: $default-size / 2; }
+.u-lg-margin { margin: $default-size * 2; }
+.u-margin { margin: $default-size; }
+
+@each $direction in $directions {
+  .u-no-margin-#{$direction} { margin-#{$direction}: 0; }
+  .u-sm-margin-#{$direction} { margin-#{$direction}: $default-size / 4; }
+  .u-md-margin-#{$direction} { margin-#{$direction}: $default-size / 2; }
+  .u-lg-margin-#{$direction} { margin-#{$direction}: $default-size * 2; }
+}

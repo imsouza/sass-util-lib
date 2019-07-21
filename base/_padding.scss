@@ -1,0 +1,16 @@
+// ==========================================================================
+// Padding
+// ==========================================================================
+
+.u-no-padding { padding: 0; }
+.u-sm-padding { padding: $default-size / 4; }
+.u-md-padding { padding: $default-size / 2; }
+.u-lg-padding { padding: $default-size * 2; }
+.u-padding { padding: $default-size; }
+
+@each $direction in $directions {
+  .u-no-padding-#{$direction} { padding-#{$direction}: 0; }
+  .u-sm-padding-#{$direction} { padding-#{$direction}: $default-size / 4; }
+  .u-md-padding-#{$direction} { padding-#{$direction}: $default-size / 2; }
+  .u-lg-padding-#{$direction} { padding-#{$direction}: $default-size * 2; }
+}
