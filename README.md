@@ -2,6 +2,14 @@
 
 A personal library of css components
 
+## Usage
+
+```
+<head>
+  <link rel="stylesheet" type="text/css" href="main.min.css">
+<head>
+```
+
 ## Author
 
 Mateus Almeida
